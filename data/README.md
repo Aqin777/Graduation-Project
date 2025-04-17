@@ -39,8 +39,6 @@ data/
     └── visuals/           # 视觉效果资源
 ```
 ## 注意事项
-1. 由于数据集文件较大，请不要将它们提交到Git仓库中
-2. SEED数据集可从[SEED数据集官方网站](http://bcmi.sjtu.edu.cn/~seed/seed.html)下载
-3. DEAP数据集可从[DEAP数据集官方网站](http://www.eecs.qmul.ac.uk/mmv/datasets/deap/)下载
-4. CK+数据集可从[CK+数据集官方网站](https://www.jeffcohn.net/Resources/)下载
-5. 下载后按照上述结构放置，或者修改`src/config.py`中的数据路径配置
+1. SEED数据集可从[SEED数据集官方网站](http://bcmi.sjtu.edu.cn/~seed/seed.html)下载
+2. DEAP数据集可从[DEAP数据集官方网站](http://www.eecs.qmul.ac.uk/mmv/datasets/deap/)下载
+3. CK+数据集可从[CK+数据集官方网站](https://www.jeffcohn.net/Resources/)下载
