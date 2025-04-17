@@ -1,25 +1,28 @@
+# emotion_meditation_system/
+
+## Project Structure
+```markdown
 emotion_meditation_system/
 │
-├── models/                  # 深度学习模型
-│   ├── eeg_model.py         # EEG情绪识别模型
-│   ├── facial_model.py      # 面部表情识别模型
-│   └── fusion_model.py      # 多模态融合模型
+├── docs/                    # Documentation
+│   ├── system_architecture.md   # System architecture design
+│   └── module_design.md     # Module design documentation
 │
-├── data/                    # 数据集和资源
-│   ├── datasets/            # 公开数据集
-│   ├── music/               # 音乐资源
-│   ├── visuals/             # 视觉资源
-│   └── guides/              # 语音引导资源
+├── src/                     # Source code
+│   ├── models/              # Deep learning models
+│   │   ├── eeg_model.py     # EEG emotion recognition model
+│   │   ├── facial_model.py  # Facial expression recognition model
+│   │   └── fusion_model.py  # Multimodal fusion model
+│   │
+│   ├── services/            # Business logic
+│   │   ├── emotion_service.py  # Emotion recognition service
+│   │   └── content_service.py  # Content adjustment service
+│   │
+│   └── web/                 # Web application
+│       ├── static/          # Static resources
+│       ├── templates/       # HTML templates
+│       └── app.py           # Web application entry
 │
-├── services/                # 业务逻辑
-│   ├── emotion_service.py   # 情绪识别服务
-│   └── content_service.py   # 内容调整服务
+├── data/                    # Datasets and resources
 │
-├── web/                     # Web应用
-│   ├── static/              # 静态资源
-│   ├── templates/           # HTML模板
-│   └── app.py               # Web应用入口
-│
-└── docs/                    # 文档
-    ├── module_design.md     # 模块化设计文档
-    └── presentation/        # 演示文件
+└── README.md                # Project description
